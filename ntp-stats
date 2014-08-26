@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# ms => s (/1000)
+toseconds() {
+	while read in; do
+		echo "scale=6; $in / 1000" | bc
+	done
+}
+
+# on Linux this gives all times in seconds (base unit)
+# 9 = offset
+# 10 = jitter
+times=`ntpq -np | tail -n +3 | awk '{print $'$1'}' | toseconds`
+# 7 = offset
+# 8 = dispersion
+#times=`ntpdc -np | tail -n +3 | awk '{print $'$1'}'`
+# for absolute offest: | sed s/^-//
+# for dispersion use $8
+echo "$times" | sort -n | head -n 1
+echo "$times" | sort -rn | head -n 1
+echo "$times"
