@@ -1,0 +1,3 @@
+# cronyd
+extend chrony_ntp_offset /etc/snmp/chrony_stats.py AdjustedOffset
+extend chrony_ntp_error /etc/snmp/chrony_stats.py Error
