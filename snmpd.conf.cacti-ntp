@@ -1,3 +1,3 @@
-# gpp - ntpd
+# ntpd
 extend ntpoffset /etc/snmp/ntp-stats 9
 extend ntpjitter /etc/snmp/ntp-stats 10
