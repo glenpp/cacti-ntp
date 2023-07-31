@@ -91,11 +91,15 @@ def ntpq_sources():
             data['t_description'] = {
                 'u': "unicast or manycast client",
                 'l': "local (reference clock)",
+                'p': "pool",
                 's': "symmetric (peer), server",
                 'B': "broadcast server",
             }[data['t']]
         for key in ('st', 'when', 'poll', 'reach'):
-            data[key] = int(data[key])
+            if data[key] == '-':
+                data[key] = None
+            else:
+                data[key] = int(data[key])
         for key in ('delay', 'offset', 'jitter'):
             data[key] = float(data[key]) / 1000
         results.append(data)
