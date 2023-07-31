@@ -93,7 +93,7 @@
 				<task_item_id>hash_080102ada91628a4af0de6c8e7a83f63af029d</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
-				<consolidation_function_id>2</consolidation_function_id>
+				<consolidation_function_id>4</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<vdef_id>0</vdef_id>
 				<shift></shift>
@@ -104,7 +104,7 @@
 				<hard_return>on</hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>2</sequence>
 			</hash_10010222c025fb092b36df930842d99bcb9b09>
 			<hash_100102fdf58a0cdc8f92b1b55e541577e81dc6>
@@ -131,7 +131,7 @@
 				<task_item_id>hash_080102222c402af40eb3018ed51baf6f7a6a83</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
-				<consolidation_function_id>3</consolidation_function_id>
+				<consolidation_function_id>4</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<vdef_id>0</vdef_id>
 				<shift></shift>
@@ -142,7 +142,7 @@
 				<hard_return>on</hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>4</sequence>
 			</hash_1001023e6564401f09b96d18598eea412fa8b6>
 			<hash_1001025a50b02912558bd6637012dc3c6f686b>
@@ -375,7 +375,7 @@
 				<task_item_id>hash_08010209e4545ecabe252a846f0855e5bd4cf1</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
-				<consolidation_function_id>3</consolidation_function_id>
+				<consolidation_function_id>4</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<vdef_id>0</vdef_id>
 				<shift></shift>
@@ -386,7 +386,7 @@
 				<hard_return>on</hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>4</sequence>
 			</hash_100102398062eec9c3d3e8f85ef349264159a9>
 			<hash_100102ea88b06669fde2dee26aae29c9a764c3>
@@ -401,11 +401,11 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 1</text_format>
+				<text_format>NTP Jitter 1</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>5</sequence>
 			</hash_100102ea88b06669fde2dee26aae29c9a764c3>
 			<hash_1001025b255fd759078cfa47c2b3810b499656>
@@ -420,11 +420,11 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 2</text_format>
+				<text_format>NTP Jitter 2</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>6</sequence>
 			</hash_1001025b255fd759078cfa47c2b3810b499656>
 			<hash_100102667595146843680ba796fe6368c85bec>
@@ -439,11 +439,11 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 3</text_format>
+				<text_format>NTP Jitter 3</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>7</sequence>
 			</hash_100102667595146843680ba796fe6368c85bec>
 			<hash_100102aeb0d2e9971a43e762dbdcf6c3039bf9>
@@ -458,11 +458,11 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 4</text_format>
+				<text_format>NTP Jitter 4</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>8</sequence>
 			</hash_100102aeb0d2e9971a43e762dbdcf6c3039bf9>
 			<hash_100102f015b5953cbe0b93f07f438a997ae6a5>
@@ -477,11 +477,11 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 5</text_format>
+				<text_format>NTP Jitter 5</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
-				<dash_offset></dash_offset>
+				<dash_offset>0</dash_offset>
 				<sequence>9</sequence>
 			</hash_100102f015b5953cbe0b93f07f438a997ae6a5>
 		</items>

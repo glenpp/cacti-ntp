@@ -93,7 +93,7 @@
 				<task_item_id>hash_080102475e4b928ac592904e16990849102601</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
-				<consolidation_function_id>3</consolidation_function_id>
+				<consolidation_function_id>4</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<vdef_id>0</vdef_id>
 				<shift></shift>
@@ -119,7 +119,7 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 1</text_format>
+				<text_format>NTP Error 1</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
@@ -138,7 +138,7 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 2</text_format>
+				<text_format>NTP Error 2</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
@@ -157,7 +157,7 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 3</text_format>
+				<text_format>NTP Error 3</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
@@ -176,7 +176,7 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 4</text_format>
+				<text_format>NTP Error 4</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
@@ -195,7 +195,7 @@
 				<value></value>
 				<gprint_id>hash_060102e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<textalign></textalign>
-				<text_format>NTP Offset 5</text_format>
+				<text_format>NTP Error 5</text_format>
 				<hard_return></hard_return>
 				<line_width>0.00</line_width>
 				<dashes></dashes>
@@ -331,7 +331,7 @@
 				<task_item_id>hash_0801024effb888f1aec870dbe7ad2f341803a9</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
-				<consolidation_function_id>2</consolidation_function_id>
+				<consolidation_function_id>4</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<vdef_id>0</vdef_id>
 				<shift></shift>
@@ -369,7 +369,7 @@
 				<task_item_id>hash_080102735124cb0679069b400ad875c6b5b73f</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
-				<consolidation_function_id>3</consolidation_function_id>
+				<consolidation_function_id>4</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<vdef_id>0</vdef_id>
 				<shift></shift>
