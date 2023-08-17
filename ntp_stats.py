@@ -98,6 +98,8 @@ def ntpq_sources():
         for key in ('st', 'when', 'poll', 'reach'):
             if data[key] == '-':
                 data[key] = None
+            elif data[key].endswith('m'):
+                data[key] = float(data[key][:-1]) / 1000
             else:
                 data[key] = int(data[key])
         for key in ('delay', 'offset', 'jitter'):
