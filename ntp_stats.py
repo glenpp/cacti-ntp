@@ -103,6 +103,8 @@ def ntpq_sources():
                     data[key] = int(data[key][:-1]) * 60
                 elif data[key].endswith('h'):
                     data[key] = int(data[key][:-1]) * 3600
+                elif data[key].endswith('d'):
+                    data[key] = int(data[key][:-1]) * 86400
                 else:
                     data[key] = int(data[key])
             else:
