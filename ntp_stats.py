@@ -65,7 +65,7 @@ def ntpq_sources():
             if header != HEADER:
                 raise ValueError(f"Got different header to expected: {header}")
             continue
-        elif not header_complete:
+        if not header_complete:
             if not line.startswith('=================='):
                 raise ValueError(f"Got different header delimiter expected: {line}")
             header_complete = True
@@ -95,22 +95,26 @@ def ntpq_sources():
                 's': "symmetric (peer), server",
                 'B': "broadcast server",
             }[data['t']]
-        for key in ('st', 'when', 'poll', 'reach'):
+        for key in ('st', 'when', 'poll'):
             if data[key] == '-':
                 data[key] = None
-            elif key in ('when'):   # in sec/min/hr
+            elif key in ('when'):   # in sec/min/hour/day/year
                 if data[key].endswith('m'):
                     data[key] = int(data[key][:-1]) * 60
                 elif data[key].endswith('h'):
                     data[key] = int(data[key][:-1]) * 3600
                 elif data[key].endswith('d'):
                     data[key] = int(data[key][:-1]) * 86400
+                elif data[key].endswith('y'):
+                    data[key] = int(data[key][:-1]) * 86400 * 365
                 else:
                     data[key] = int(data[key])
             else:
                 data[key] = int(data[key])
         for key in ('delay', 'offset', 'jitter'):
             data[key] = float(data[key]) / 1000
+        # reach - octal with LSB most recent status
+        data['reach'] = int(data['reach'], 8)
         results.append(data)
     return results
 
